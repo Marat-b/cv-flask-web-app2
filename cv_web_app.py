@@ -6,7 +6,8 @@ import sys
 import json
 
 
-# Define App
+# Define App 
+#
 app = Flask(__name__,template_folder="templates")
 
 # The home page is routed to index.html inside
